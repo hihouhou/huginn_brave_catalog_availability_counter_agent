@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "huginn_brave_catalog_availabilty_counter_agent"
+  spec.name          = "huginn_brave_catalog_availability_counter_agent"
   spec.version       = '0.1'
   spec.authors       = ["Nicolas Germain"]
   spec.email         = ["ngermain@hihouhou.com"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Write a short summary, because Rubygems requires one.}
   spec.description   = %q{Write a longer description or delete this line.}
 
-  spec.homepage      = "https://github.com/hihouhou/huginn_brave_catalog_availabilty_counter_agent"
+  spec.homepage      = "https://github.com/hihouhou/huginn_brave_catalog_availability_counter_agent"
 
   spec.license       = "MIT"
 

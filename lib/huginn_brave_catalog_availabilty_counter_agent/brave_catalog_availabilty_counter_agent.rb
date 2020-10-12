@@ -1,5 +1,5 @@
 module Agents
-  class BraveCatalogAvailabiltyCounterAgent < Agent
+  class BraveCatalogAvailabilityCounterAgent < Agent
     include FormConfigurable
     can_dry_run!
     no_bulk_receive!

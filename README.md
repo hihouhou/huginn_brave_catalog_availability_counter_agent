@@ -1,6 +1,6 @@
-# BraveCatalogAvailabiltyCounterAgent
+# BraveCatalogAvailabilityCounterAgent
 
-Welcome to your new agent gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/huginn_brave_catalog_availabilty_counter_agent`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to your new agent gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/huginn_brave_catalog_availability_counter_agent`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
 
@@ -11,9 +11,9 @@ This gem is run as part of the [Huginn](https://github.com/huginn/huginn) projec
 Add this string to your Huginn's .env `ADDITIONAL_GEMS` configuration:
 
 ```ruby
-huginn_brave_catalog_availabilty_counter_agent
+huginn_brave_catalog_availability_counter_agent
 # when only using this agent gem it should look like this:
-ADDITIONAL_GEMS=huginn_brave_catalog_availabilty_counter_agent
+ADDITIONAL_GEMS=huginn_brave_catalog_availability_counter_agent
 ```
 
 And then execute:
@@ -40,7 +40,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/huginn_brave_catalog_availabilty_counter_agent/fork )
+1. Fork it ( https://github.com/[my-github-username]/huginn_brave_catalog_availability_counter_agent/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
