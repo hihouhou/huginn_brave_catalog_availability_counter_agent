@@ -35,6 +35,7 @@ module Agents
 
     form_configurable :debug, type: :boolean
     form_configurable :expected_receive_period_in_days, type: :string
+
     def validate_options
 
       if options.has_key?('debug') && boolify(options['debug']).nil?
@@ -47,14 +48,7 @@ module Agents
     end
 
     def working?
-
-      return false if recent_error_logs?
-
-      if interpolated['expected_receive_period_in_days'].present?
-        return false unless last_receive_at && last_receive_at > interpolated['expected_receive_period_in_days'].to_i.days.ago
-      end
-
-      true
+      event_created_within?(options['expected_receive_period_in_days']) && !recent_error_logs?
     end
 
     def check
