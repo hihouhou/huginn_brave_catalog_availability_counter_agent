@@ -18,12 +18,13 @@ module Agents
 
     event_description <<-MD
       Events look like this:
-        {
-          "date": "2020-10-10T09:05:22+02:00",
-          "campaign_number": "12",
-          "creatives_number": "18",
-          "creativeinstanceid_number": "61"
-        }
+
+          {
+            "date": "2020-10-10T09:05:22+02:00",
+            "campaign_number": "12",
+            "creatives_number": "18",
+            "creativeinstanceid_number": "61"
+          }
     MD
 
     def default_options
@@ -58,7 +59,7 @@ module Agents
     private
 
     def fetch
-      uri = URI.parse("https://ads-serve.brave.com/v7/catalog")
+      uri = URI.parse("https://ads-static.brave.com/v8/catalog")
       response = Net::HTTP.get_response(uri)
 
       puts "request  status : #{response.code}"
