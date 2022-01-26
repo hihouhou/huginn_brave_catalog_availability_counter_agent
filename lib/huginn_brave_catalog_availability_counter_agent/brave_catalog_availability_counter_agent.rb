@@ -71,7 +71,6 @@ module Agents
       end
       
       campaign_nbr=0
-      creativesets_nbr=0
       creatives_nbr=0
       creativeinstanceid_nbr=0
       payload['campaigns'].each do |campaign|
